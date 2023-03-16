@@ -1,0 +1,25 @@
+package com.lao.javalearning;
+
+public class BankAccount {
+	
+	
+	Long accountnumber = 1234567890l;
+	
+	String accountname = "Agni";
+	
+	Integer accountbalance = 500;
+	
+	public void getbalance() {
+		System.out.println("Account balance is: "+accountbalance);
+	}
+
+	public static void main(String[] args) {
+		
+		// classname objname = new classname()
+		
+		BankAccount account = new BankAccount();    //Object created for the class
+		account.getbalance();
+
+	}
+
+}
