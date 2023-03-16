@@ -1,0 +1,19 @@
+package com.lao.javalearning;
+
+public class CollectAmount {
+	
+	public int collectamount= 5000;
+	
+	public int CollectionByRavi() {
+		System.out.println("Ravi has collected: LKR"+collectamount);
+		return collectamount;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CollectAmount amount= new CollectAmount();
+		int collectedmoney = amount.CollectionByRavi();
+		System.out.println("I have received: LKR"+collectedmoney);
+		
+	}
+
+}
