@@ -1,0 +1,25 @@
+package com.lao.javalearning;
+
+public class Constructors {
+
+	String draw;
+	
+	//if we don't assign constructor, the default constructor will take place and it initialize the value as null or 0.
+	
+	Constructors(){
+		draw= "Circle";
+		System.out.println("No Argument Constructor");
+	}
+	
+	Constructors(String todraw){
+		draw=todraw;
+		System.out.println("Parameterized Constructor");
+	}
+	
+	public static void main(String[] args) {
+		Constructors constructors=new Constructors();
+		Constructors constructors2=new Constructors("Triangle");
+
+	}
+
+}
